@@ -1,0 +1,25 @@
+/* Created by Tivotal */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #f2f2f2;
+}
+
+.circle {
+  height: 24px;
+  width: 24px;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999999999;
+  opacity: 0;
+}
